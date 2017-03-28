@@ -12,6 +12,7 @@ Participants will be introduced to the main concepts and case uses of recursion,
 ##### Instructor Notes
 
 * Students only need to use node for these activities. No modules are needed.
+* Use [This Powerpoint](slides.pptx)
 
 * Make sure that participants are able to follow the flow of recursion accurately. Feel free to slow down in order to let them have a solid understanding of what exactly is going on at every step.
 - - -
@@ -34,7 +35,7 @@ Participants will be introduced to the main concepts and case uses of recursion,
     * At first it may seem like it functions very similarly, however, it has quite a few very important differences
 * Ask participants to take turns saying what they think is the advantage to calling a function from within itself, and how it can be better than a normal loop in some ways.
     * Make sure to provide positive reinforcement, even if their guess isn't entirely correct.
-* After participants provide their feedback make sure to at least go over [expressCalculator.js](Activities/1-ExpressCalculator/expressCalculator.js) and touch upon these main points with them:
+* After participants provide their feedback make sure to at least go over (example code) and touch upon these main points with them:
     * Each time a funtion calls itself, the new method call has its own variables
     * The amount of 'loops' are dependent on how many times the function calls itself, whereas you cannot have a variable number of nested for loops; there are only as many as you write
     * Recursion is not only dependent on a true/false comparison to execute
@@ -47,7 +48,7 @@ Participants will be introduced to the main concepts and case uses of recursion,
 * Explain to participants how having data with variable complexity can introduce problems with conventional looping
     * The best solution for the first set would to create three nested for loops and iterate through the multidimensional array
     * However when we have data that could have any number of layers, writing only three loops will only yield us information three layers deep
-* Proceed to live code a solution using recursion and touch on these points:
+* Proceed to live code a solution using recursion and touch on these points using (example code):
     * By using recursion we are able to support any amount of complexity without having to write more code than we have to
     * We are using a base case to determine when each path of recursion stops
     * Loops are still being used within our recursive function!
@@ -55,6 +56,7 @@ Participants will be introduced to the main concepts and case uses of recursion,
 
 ### 3. Descendant counter
 * **Instructions**
+  * Send out this file: (unsolved code)
   * Your group will create a recursive function that returns the number of descendants any given person has in the object family
 
   * Your function must take in any position in the tree of objects
@@ -62,7 +64,7 @@ Participants will be introduced to the main concepts and case uses of recursion,
   * For example findBelow(family[0].desc[3]) will return 5
 
 ### 4. Descendant counter review
-
+* (solved code)
 * Quickly go over solved Descendant counter
 * Evaluate common points of pain among participants and briefly make sure they are explained
 
@@ -80,9 +82,11 @@ Participants will be introduced to the main concepts and case uses of recursion,
 
 ### 6. Highest Prime Multiple
 * **Instructions**
+  * Send out this file (unsolved code)
   * Groups will create a recursive function that returns the highest prime multiple of an input number
 
 ### 7. Highest Prime Multiple Review
+* (solved code)
 * Quickly go over solved Highest Prime
 * Make sure participants understand the following:
     * The basecase for prime
@@ -112,11 +116,13 @@ Participants will be introduced to the main concepts and case uses of recursion,
 
 ### 9. Maze
 * **Instructions**
+  * Send out this file (unsolved code)
   * Groups will create a recursive function that returns if a maze is solvable
  
   * Bonus: return the path found
 
 ### 10. Maze review
+* (solved code)
 * Go over maze solution
 * Make sure participants understand the following:
     * The setup function
