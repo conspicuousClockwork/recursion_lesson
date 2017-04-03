@@ -1,0 +1,14 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "Hackathon script",
+  "main": "server.js",
+  "scripts": {
+    "test": "server.js"
+  },
+  "author": "Caleb",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.13.0"
+  }
+}
